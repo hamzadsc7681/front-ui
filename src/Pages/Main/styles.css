@@ -1,0 +1,233 @@
+.intro_heading {
+  font-size: 52px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.heading_part {
+  color: #1e3a8a;
+}
+
+.intro_para {
+  font-weight: bold;
+  color: rgb(175, 175, 175);
+}
+.learn {
+  color: #1e3a8a;
+  background-color: white;
+  outline: none;
+  border: 1px solid #1e3a8a;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+.shop {
+  color: white;
+  background-color: #1e3a8a;
+  outline: none;
+  border: 1px solid #1e3a8a;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
+.rate_icon {
+  color: rgb(255, 208, 0);
+}
+
+.rating_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rating_list > li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.star {
+  color: #1e3a8a;
+  font-size: 36px;
+}
+
+.rating_heading {
+  color: rgb(175, 175, 175);
+  position: relative;
+  top: 2px;
+}
+
+.rating_para {
+  font-weight: 500;
+}
+
+.doc_heading {
+  color: #1e3a8a;
+  font-weight: bold;
+
+  margin-bottom: 40px;
+}
+
+.main_doctor {
+  background-color: #dde3f7;
+}
+
+.about_heading {
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.about_para {
+  font-weight: 500;
+}
+
+.pro_wrapper{
+    background-color: #1e3a8a;
+   
+}
+
+                   
+.pro_pic{
+width: 500px;
+height: 400px;
+margin-top: 40px;
+margin-bottom: 40px;
+border-radius: 7px;
+}
+
+.pro_btn{
+    color: #1e3a8a;
+  background-color: white;
+  outline: none;
+  border: 1px solid #1e3a8a;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
+.inside_wrapper{
+    margin-top: 140px;
+}
+
+.pro_heading{
+    color: white;
+}
+
+.pro_para{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 34px;
+}
+
+.pro_icon_wrapper{
+padding: 9px 10px 9px 10px;
+border: 1px solid white;
+border-radius: 7px;
+}
+
+.pro_icon{
+    color: white;
+    position: relative;
+    top: -2px;
+
+}
+
+.pro_num{
+    color: white;
+    margin-left: 20px;
+}
+
+.pat_heading{
+    color: #1e3a8a;
+  font-weight: bold;
+}
+
+.patient_main{
+    background-color: #dde3f7;
+}
+
+.pat_cards{
+    background-color: white;
+     box-shadow: 5px 10px 8px #c5c5c5;
+     border-radius: 7px;
+}
+
+.pat_tag{
+    border: 1px solid rgb(196, 196, 196);
+    font-size: 14px;
+    padding: 2px 40px 2px 40px;
+    border-radius: 18px;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+    color: #1e3a8a;
+    background-color: white;
+}
+
+.patient_heading{
+color: #1e3a8a;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.pat_para{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.rating{
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.step_heading{
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.steps_insider{
+    width: 70% !important;
+}
+
+.main_footer{
+  background-color: #dde3f7;
+}
+
+@media screen and (max-width: 968px) {
+  .intro_heading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 37px;
+  }
+
+  .intro_para {
+    text-align: center;
+  }
+  .learn {
+    margin-right: 10px;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+  .doc_img {
+    display: none;
+  }
+  .rating_container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .pro_pic{
+      display: none;
+  }
+  .inside_wrapper{
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .pat_cards{
+    margin-top: 30px;
+  }
+}

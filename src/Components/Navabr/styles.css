@@ -1,0 +1,94 @@
+.top_bar {
+  background-color: #1e3a8a;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main_navbar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mail_icon {
+  margin-right: 7px;
+  font-size: 20px;
+}
+
+.mobile_icon {
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+.mail_text {
+  font-size: 14px;
+}
+
+.mobile_text {
+  font-size: 14px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav_brand {
+  font-weight: bold;
+  margin-left: 10px;
+  color: #1e3a8a;
+}
+
+.treatment {
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.nav_list {
+  list-style-type: none;
+  position: relative;
+  top: 6px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav_list > li {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.btn_reglog {
+  background-color: #1e3a8a;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 4px 12px 4px 12px;
+  border-radius: 7px;
+}
+
+.dropdown_icon {
+  position: relative;
+  top: -2px;
+}
+
+@media screen and (max-width: 968px) {
+  .top_bar {
+    display: none;
+  }
+  .nav_list > li {
+    display: block;
+    margin-top: 20px;
+  }
+  .main_navbar {
+    margin-bottom: 0px;
+  }
+}
+.bg__color {
+  background-color: #1e3a8a !important;
+}
+.bg__color>span{
+    color: white !important;
+}
